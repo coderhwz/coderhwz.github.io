@@ -1,0 +1,26 @@
+# Site settings
+title: Hwz Blog 
+header-img: img/home-bg.jpg
+email: hwz@gmail.com
+description: ""
+baseurl: ""
+url: "http://coderhwz.github.io"
+twitter_username: coderhwz
+github_username:  coderhwz
+
+# Build settings
+markdown: kramdown 
+
+# markdown: redcarpet
+# redcarpet can auto highlight code, but the lack of header-id make the catalog impossible 
+
+highlighter: pygments
+permalink: pretty
+paginate: 20
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# use Github Flavored Markdown !important
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+
+kramdown:
+  input: GFM
